@@ -59,15 +59,15 @@ export const Footer = () => {
                 >
                     <IconLink
                         icon={MdOutlinePersonPin}
-                        link={"https://mohit-portfolio.vercel.app/"}
+                        link={"https://ankitkrjha32.me"}
                     />
                     <IconLink
                         icon={FaGithub}
-                        link={"https://github.com/m-sehrawat/"}
+                        link={"https://github.com/ankitkrjha32"}
                     />
                     <IconLink
                         icon={FaLinkedin}
-                        link={"https://www.linkedin.com/in/mohitsehrawat/"}
+                        link={"https://www.linkedin.com/in//"}
                     />
                 </Flex>
 
