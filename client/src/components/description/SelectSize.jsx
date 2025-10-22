@@ -3,9 +3,9 @@ import { Box, HStack, useColorMode, useRadio, useRadioGroup } from "@chakra-ui/r
 
 const RadioCard = (props) => {
 
-    const { getInputProps, getCheckboxProps } = useRadio(props);
+    const { getInputProps, getRadioProps } = useRadio(props);
     const input = getInputProps();
-    const checkbox = getCheckboxProps();
+    const radio = getRadioProps();
     const { colorMode } = useColorMode();
 
     return (
@@ -13,7 +13,7 @@ const RadioCard = (props) => {
             <input {...input} />
             <Box
                 onClick={props.onClick}
-                {...checkbox}
+                {...radio}
                 cursor="pointer"
                 borderWidth="1px"
                 borderRadius="md"
