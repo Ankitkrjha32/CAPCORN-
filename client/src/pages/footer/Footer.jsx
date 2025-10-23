@@ -70,7 +70,7 @@ export const Footer = () => {
                         link={"https://www.linkedin.com/in//"}
                     />
                 </Flex>
-
+{/* //// */}
             </Grid>
         </Box>
     );
