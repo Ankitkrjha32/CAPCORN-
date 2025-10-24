@@ -22,7 +22,7 @@ export const Navbar = () => {
         dispatch(setNavbarPath(name));
         setItemSession("path", name);
     };
-
+// /
     return (
         <>
             <Box h={'36px'} bg={colorMode === 'light' && '#f5f5f5'} >
